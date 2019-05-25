@@ -22,8 +22,10 @@
 
 - Learning rate decrease: Multiply by 0.1 every 30 epochs
 
-- GPU: single GPU (NVIDIA Quadro P4000)
+- GPU: single GPU (NVIDIA Quadro P4000 / GeForce GTX 1080 Ti)
 
 - Num of workers: 8
 
-## 3 Pre-trained Models Download Link
+- Input range: [-1, 1]
+
+- Output: 1000 dimension one-hot vector
