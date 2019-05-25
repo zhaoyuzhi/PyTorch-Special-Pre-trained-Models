@@ -14,7 +14,7 @@
 
 - Batch size: 32
 
-- Learning rate: 0.01
+- Initial Learning rate: 0.01
 
 - Momentum: 0.9
 
@@ -22,8 +22,10 @@
 
 - Learning rate decrease: Multiply by 0.1 every 30 epochs
 
-- GPU: single GPU (NVIDIA GeForce GTX 1080)
+- GPU: single GPU (NVIDIA GeForce GTX 1080 / 1080 Ti)
 
 - Num of workers: 8
 
-## 3 Pre-trained Models Download Link
+- Input range: [-1, 1]
+
+- Output: 1000 dimension one-hot vector
