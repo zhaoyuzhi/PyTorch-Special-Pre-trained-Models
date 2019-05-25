@@ -69,13 +69,17 @@ def Trainer(opt):
     # Save the model if pre_train == True
     def save_model(net, epoch, opt):
         """Save the model at "checkpoint_interval" and its multiple"""
+        if opt.pre_train == False:
+            addition_epoch = int(opt.load_epoch)
+        else:
+            addition_epoch = 0
         if opt.multi_gpu == True:
             if epoch % opt.checkpoint_interval == 0:
-                torch.save(net.module, '%s_epoch%d_batchsize%d.pth' % (opt.load_type, epoch, opt.batch_size))
+                torch.save(net.module, '%s_epoch%d_batchsize%d.pth' % (opt.load_type, (epoch + addition_epoch), opt.batch_size))
                 print('The trained model is successfully saved at epoch %d' % epoch)
         else:
             if epoch % opt.checkpoint_interval == 0:
-                torch.save(net, '%s_epoch%d_batchsize%d.pth' % (opt.load_type, epoch, opt.batch_size))
+                torch.save(net, '%s_epoch%d_batchsize%d.pth' % (opt.load_type, (epoch + addition_epoch), opt.batch_size))
                 print('The trained model is successfully saved at epoch %d' % epoch)
     
     # ----------------------------------------
