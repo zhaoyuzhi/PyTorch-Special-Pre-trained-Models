@@ -20,13 +20,13 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 ### 1.1  CIE Lab VGG-16
 
-- epoch 30 | top 1:  | top 5: 
+- epoch 30 | top 1: 37.41% | top 5: 65.55%
 
-- epoch 60 | top 1:  | top 5: 
+- epoch 60 | top 1: 60.29% | top 5: 83.83%
 
-- epoch 90 | top 1:  | top 5: 
+- epoch 90 | top 1: 60.38% | top 5: 83.11%
 
-- epoch 120 | top 1:  | top 5: 
+- epoch 120 | top 1: 60.87% | top 5: 83.17%
 
 ### 1.3  Fully Convolutional CIE Lab VGG-16
 
@@ -48,7 +48,9 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 ### 2.3  Fully Convolutional CIE Lab VGG-16
 
-Now the `epoch 120 model` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EfzwFPcpxJJLupdH6lesDowBxkPEWyyw1PEsLI6DEDbJew?e=8ITWBT)
+Now the `epoch 120 model of CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EXlHehh_tj1Jsg4RIMMXlw0BE4BG5kjR9hx4-uiCj6tAVg?e=7UveYh)
+
+Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EfzwFPcpxJJLupdH6lesDowBxkPEWyyw1PEsLI6DEDbJew?e=8ITWBT)
 
 Other models pending...
 
