@@ -30,8 +30,8 @@ if __name__ == "__main__":
     parser.add_argument('--img_width', type = int, default = 224, help = 'size of image width')
     parser.add_argument('--checkpoint_interval', type = int, default = 5, help = 'interval between model checkpoints')
     parser.add_argument('--pre_train', type = bool, default = True, help = 'pre-trained model exists ot not')
-    parser.add_argument('--load_type', type = str, default = "LabVGG16_FC_BN",
-        help = 'load_type: load the model corresponding to network type; there are 3 types: LabVGG16 | LabVGG16_BN | LabVGG16_FC_BN')
+    parser.add_argument('--load_type', type = str, default = "abVGG16_FC_BN",
+        help = 'load_type: load the model corresponding to network type; there are 3 types: abVGG16 | abVGG16_BN | abVGG16_FC_BN')
     parser.add_argument('--load_epoch', type = str, default = "20", help = 'load_epoch: load the model corresponding to certain epoch')
     parser.add_argument('--load_batchsize', type = str, default = "32", help = 'load_batchsize: load the model corresponding to certain batchsize')
     parser.add_argument('--multi_gpu', type = bool, default = False, help = 'nn.Parallel needs or not')
