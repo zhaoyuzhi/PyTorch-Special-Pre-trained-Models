@@ -38,22 +38,20 @@ def text_save(content, filename, mode='a'):
 # VGG-16 accuracy for one image
 # input: one imgpath, a VGG-16 model and the ground truth label
 # output: top1 and top5 accuracy (0 or 1)
-def get_lab(img):
+def get_gray(img):
     # pre-processing, let all the images are in RGB color space
-    img = img.resize((224, 224), Image.ANTIALIAS).convert('RGB')        # PIL Image RGB: R [0, 255], G [0, 255], B [0, 255], order [H, W, C]
-    img = np.array(img)                                                 # numpy RGB: R [0, 255], G [0, 255], B [0, 255], order [H, W, C]
-    # convert RGB to Lab, finally get Tensor
-    lab = color.rgb2lab(img).astype(np.float32)                         # skimage Lab: L [0, 100], a [-128, 127], b [-128, 127], order [H, W, C]
-    lab = transforms.ToTensor()(lab)                                    # Tensor Lab: L [0, 100], a [-128, 127], b [-128, 127], order [C, H, W]
-    # normaization
-    lab[[0], ...] = lab[[0], ...] / 50 - 1.0                            # L, normalized to [-1, 1]
-    lab[[1, 2], ...] = lab[[1, 2], ...] / 110.0                         # a and b, normalized to [-1, 1], approximately
-    return lab
+    img = img.resize((224, 224), Image.ANTIALIAS).convert('L')          # PIL Image L: L [0, 255], order [H, W]
+    transform = transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Normalize((0.5,), (0.5,))
+        ])
+    gray = transform(img)                                               # transformed image (tensor)
+    return gray
 
 def Classification_Acuuracy(imgpath, model, label):
     # Read the images
     img = Image.open(imgpath)
-    target = get_lab(img)
+    target = get_gray(img)
     target = target.unsqueeze_(dim = 0)
     target = target.cuda()
 
