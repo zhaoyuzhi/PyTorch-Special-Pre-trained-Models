@@ -1,6 +1,6 @@
 # PyTorch-Special-Pre-trained-Models
 
-Special pre-trained VGG-16 network on CIE Lab and Grayscale images
+Special pre-trained VGG-16 network on CIE Lab and Grayscale images converted from ImageNet training set
 
 ## 1 Model Validation Accuracy (on ImageNet Validation 50k)
 
@@ -10,15 +10,15 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 ### 1.1  Fully Convolutional Gray VGG-16
 
-- epoch 30 | top 1:  | top 5: 
+- epoch 30 | top 1: 32.50% | top 5: 59.90%
 
-- epoch 60 | top 1:  | top 5: 
+- epoch 60 | top 1: 56.28% | top 5: 80.66%
 
-- epoch 90 | top 1:  | top 5: 
+- epoch 90 | top 1: 57.96% | top 5: 81.80%
 
-- epoch 120 | top 1:  | top 5: 
+- epoch 120 | top 1: 57.46% | top 5: 81.31%
 
-### 1.1  CIE Lab VGG-16
+### 1.2  CIE Lab VGG-16
 
 - epoch 30 | top 1: 37.41% | top 5: 65.55%
 
@@ -44,9 +44,11 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 ### 2.1  Fully Convolutional Gray VGG-16
 
-### 2.1  CIE Lab VGG-16
+### 2.2  CIE Lab VGG-16
 
 ### 2.3  Fully Convolutional CIE Lab VGG-16
+
+Now the `epoch 120 model of Fully Convolutional Gray VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/Eewuv4ALcYlMrSGKET_92I8BeScScW_NTFWWgPNj3bSBzQ?e=hy8dki)
 
 Now the `epoch 120 model of CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EXlHehh_tj1Jsg4RIMMXlw0BE4BG5kjR9hx4-uiCj6tAVg?e=7UveYh)
 
