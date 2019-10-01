@@ -40,17 +40,21 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 - We further tested validation accuracy when the learning was further decreasing to 1e-6; however, there is no explicit improvement. For example, when epoch = 125, the top 1 accuracy = 65.16% and top 5 accuracy = 86.81%.
 
+### 1.4  Fully Convolutional RGB ResNet-50 IN
+
+- For epoch 5, the top 1 accuracy is 55.77% and top 5 accuracy is 79.64%
+
 ## 2 Download Link
 
 ### 2.1  Fully Convolutional Gray VGG-16
 
-### 2.2  CIE Lab VGG-16
-
-### 2.3  Fully Convolutional CIE Lab VGG-16
-
 Now the `epoch 120 model of Fully Convolutional Gray VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/Eewuv4ALcYlMrSGKET_92I8BeScScW_NTFWWgPNj3bSBzQ?e=hy8dki)
 
+### 2.2  CIE Lab VGG-16
+
 Now the `epoch 120 model of CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EXlHehh_tj1Jsg4RIMMXlw0BE4BG5kjR9hx4-uiCj6tAVg?e=7UveYh)
+
+### 2.3  Fully Convolutional CIE Lab VGG-16
 
 Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EfzwFPcpxJJLupdH6lesDowBxkPEWyyw1PEsLI6DEDbJew?e=8ITWBT)
 
