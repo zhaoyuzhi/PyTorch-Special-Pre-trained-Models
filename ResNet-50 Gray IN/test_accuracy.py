@@ -75,8 +75,8 @@ def Classification_Acuuracy(imgpath, model, label):
 
     return top1, top5
 
-# VGG-16 accuracy for dataset
-def Dset_Acuuracy(vgg16, imglist, targetlist, basepath):
+# ResNet-50 accuracy for dataset
+def Dset_Acuuracy(model, imglist, targetlist, basepath):
     # Define the list saving the accuracy
     top1list = []
     top5list = []
@@ -90,7 +90,7 @@ def Dset_Acuuracy(vgg16, imglist, targetlist, basepath):
         imgpath = basepath + imgname
         # Seek for the index; index = i
         # Compute the top-1 and top-5 accuracy
-        top1, top5 = Classification_Acuuracy(imgpath, vgg16, targetlist[i])
+        top1, top5 = Classification_Acuuracy(imgpath, model, targetlist[i])
         top1list.append(top1)
         top5list.append(top5)
         top1ratio = top1ratio + top1
@@ -104,9 +104,9 @@ def Dset_Acuuracy(vgg16, imglist, targetlist, basepath):
 if __name__ == "__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-    # Pre-trained VGG-16
-    vgg16 = torch.load('./ResNet-50 Gray IN/ResNet50_Gray_IN_epoch120_batchsize64.pth').cuda()
-    vgg16.eval()
+    # Pre-trained ResNet-50
+    resnet50 = torch.load('./ResNet-50 Gray IN/ResNet50_Gray_IN_epoch120_batchsize64.pth').cuda()
+    resnet50.eval()
     # Read all names
     imglist = text_readlines('ILSVRC2012_val_name.txt')
     # Define target list of validation set 50000 images (index: 0~49999)
@@ -116,6 +116,6 @@ if __name__ == "__main__":
     # Define the name you want to save as
     base = 'epoch 120 / ResNet-50 Gray IN'
 
-    top1list, top5list, top1ratio, top5ratio = Dset_Acuuracy(vgg16, imglist, targetlist, basepath)
+    top1list, top5list, top1ratio, top5ratio = Dset_Acuuracy(resnet50, imglist, targetlist, basepath)
 
     print('The overall results for %s: top1ratio: %f, top5ratio: %f' % (base, top1ratio, top5ratio))
