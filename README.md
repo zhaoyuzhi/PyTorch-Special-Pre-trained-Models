@@ -42,7 +42,7 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 ### 1.4  Fully Convolutional RGB ResNet-50 IN
 
-- For epoch 5, the top 1 accuracy is 55.77% and top 5 accuracy is 79.64%
+- For epoch 5, the top 1 accuracy is 55.77% and top 5 accuracy is 79.64%. For epoch 15, the top 1 accuracy is 57.16% and top 5 accuracy is 80.79%.
 
 ## 2 Download Link
 
@@ -60,6 +60,11 @@ Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [L
 
 Other models pending...
 
-## 3 Acknowledgement
+## 3 Convert
+
+Normally, we save the whole model as a `.pth` file. If you want the weights only, please run `convert.py`
+
+## 4 Acknowledgement
 
 If you think this work is helpful for your research, please consider cite:
+
