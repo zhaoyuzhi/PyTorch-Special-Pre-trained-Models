@@ -27,7 +27,8 @@ class GrayImageNetTrain(Dataset):
         imgname = self.imgname[index]                                       # name of one image
         imgpath = self.base + imgname                                       # path of one image
         img = Image.open(imgpath)                                           # read one image
-        img = img.convert('L').resize((224, 224), Image.ANTIALIAS)          # pre-processing  
+        img = img.convert('L').resize((224, 224), Image.ANTIALIAS)          # pre-processing
+        #img = img.convert('L').resize((256, 256), Image.ANTIALIAS)         # pre-processing
         img = self.transform(img)                                           # normalized Gray Tensor
         
         stringname = imgname[:9]                                            # category by str: like n01440764
