@@ -54,7 +54,7 @@ class BasicBlock(nn.Module):
         if self.downsample is not None:
             identity = self.downsample(x)
         out += identity
-        out = self.relu(out)
+        out = self.lrelu(out)
         return out
 
 class Bottleneck(nn.Module):
