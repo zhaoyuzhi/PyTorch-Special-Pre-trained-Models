@@ -58,6 +58,11 @@ Now the `epoch 120 model of CIE Lab VGG-16` is available: [Link](https://portlan
 
 Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EfzwFPcpxJJLupdH6lesDowBxkPEWyyw1PEsLI6DEDbJew?e=8ITWBT)
 
+### 2.4  Gray VGG-16 with Spectral Norm
+
+Now the `epoch 120 model of Gray VGG-16 with Spectral Norm` is available: [Link](
+https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoQ0b3sdTNFAnvwWXg474XcBiV9Q4-OeNnCkSbw97FP-1g?e=oQNi0A)
+
 Other models pending...
 
 ## 3 Convert
