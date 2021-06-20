@@ -48,20 +48,27 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 ### 2.1  Fully Convolutional Gray VGG-16
 
-Now the `epoch 120 model of Fully Convolutional Gray VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/Eewuv4ALcYlMrSGKET_92I8BeScScW_NTFWWgPNj3bSBzQ?e=hy8dki)
+Now the `epoch 120 model of Fully Convolutional Gray VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/Et3L1driFDBBsc2gwc0zhT4BoyDxlG3UP1J_B-DDSUKKqw?e=faaDVc)
 
 ### 2.2  CIE Lab VGG-16
 
-Now the `epoch 120 model of CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EXlHehh_tj1Jsg4RIMMXlw0BE4BG5kjR9hx4-uiCj6tAVg?e=7UveYh)
+Now the `epoch 120 model of CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/Ev3P5qMyQltKujBS56FsBigB5oFZpPTcSkH3gDLiIYEgQQ?e=j8biDv)
 
 ### 2.3  Fully Convolutional CIE Lab VGG-16
 
-Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:u:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EfzwFPcpxJJLupdH6lesDowBxkPEWyyw1PEsLI6DEDbJew?e=8ITWBT)
+Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EpKE6a0f6LdHj68CMv6Tmf8BeNh_1KyUCx7ukBUVmjMGPg?e=YK4Rig)
 
 ### 2.4  Gray VGG-16 with Spectral Norm
 
-Now the `epoch 120 model of Gray VGG-16 with Spectral Norm` is available: [Link](
-https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoQ0b3sdTNFAnvwWXg474XcBiV9Q4-OeNnCkSbw97FP-1g?e=oQNi0A)
+Now the `epoch 120 model of Gray VGG-16 with Spectral Norm` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoQ0b3sdTNFAnvwWXg474XcBiV9Q4-OeNnCkSbw97FP-1g?e=76eAxG)
+
+### 2.5  ResNet-50-RGB IN
+
+Now the `epoch 60 model of ResNet-50-RGB IN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EjRVIDqrT5pJhtsFm2Mf8HQBMYcuYo1FjNz6Yz2IhmFRJw?e=Hqf8fa)
+
+### 2.6  ResNet-50-Gray BN
+
+Now the `epoch 60 model of ResNet-50-Gray BN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EgqoMAIIuydJo8dQpz_oZZQB7qeKj7kIq0qGIalXoR6Sqg?e=NBAVaK)
 
 Other models pending...
 
@@ -71,5 +78,23 @@ Normally, we save the whole model as a `.pth` file. If you want the weights only
 
 ## 4 Acknowledgement
 
-If you think this work is helpful for your research, please consider cite:
+If you use `Fully Convolutional Gray VGG-16` or `Gray VGG-16 with Spectral Norm`, please consider cite:
+```bash
+@article{zhao2020scgan,
+  title={SCGAN: Saliency Map-guided Colorization with Generative Adversarial Network},
+  author={Zhao, Yuzhi and Po, Lai-Man and Cheung, Kwok-Wai and Yu, Wing-Yin and Abbas Ur Rehman, Yasar},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2020},
+  publisher={IEEE}
+}
+```
 
+If you use `Fully Convolutional ResNet-50-Gray BN`, please consider cite:
+```bash
+@article{zhao2021vcgan,
+  title={VCGAN: Video Colorization with Hybrid Generative Adversarial Network},
+  author={Zhao, Yuzhi and Po, Lai-Man and Yu, Wing-Yin and Rehman, Yasar Abbas Ur and Liu, Mengyang and Zhang, Yujia and Ou, Weifeng},
+  journal={arXiv preprint arXiv:2104.12357},
+  year={2021}
+}
+```
