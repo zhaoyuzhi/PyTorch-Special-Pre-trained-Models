@@ -48,27 +48,31 @@ The **Fully Convolutional** models do not include MaxPooling layer & AdaptiveAvg
 
 ### 2.1  Fully Convolutional Gray VGG-16
 
-Now the `epoch 120 model of Fully Convolutional Gray VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/Et3L1driFDBBsc2gwc0zhT4BoyDxlG3UP1J_B-DDSUKKqw?e=faaDVc)
+Now the `epoch 120 model of Fully Convolutional Gray VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/Eo5EUfHprwJMrUTAXnFy0_AB45n_EHQC3RNs-mcZgnFcVA?e=npBwqL).
 
-### 2.2  CIE Lab VGG-16
+### 2.2  CIE Lab VGG-16 BN
 
-Now the `epoch 120 model of CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/Ev3P5qMyQltKujBS56FsBigB5oFZpPTcSkH3gDLiIYEgQQ?e=j8biDv)
+Now the `epoch 120 model of CIE Lab VGG-16 BN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EtNJ_q3FIBNLjlH730hvH9oB5alYbw4LjOYS-54FzmVOZg?e=qKAW0I)
 
 ### 2.3  Fully Convolutional CIE Lab VGG-16
 
-Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EpKE6a0f6LdHj68CMv6Tmf8BeNh_1KyUCx7ukBUVmjMGPg?e=YK4Rig)
+Now the `epoch 120 model of Fully Convolutional CIE Lab VGG-16` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EpFho59uMWZJm67k9I_1hoYB7veVRjUooywOBOKrj_-2hw?e=b8Tc9E)
 
 ### 2.4  Gray VGG-16 with Spectral Norm
 
-Now the `epoch 120 model of Gray VGG-16 with Spectral Norm` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EoQ0b3sdTNFAnvwWXg474XcBiV9Q4-OeNnCkSbw97FP-1g?e=76eAxG)
+Now the `epoch 120 model of Gray VGG-16 with Spectral Norm` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EiZ_t8UZBnJCtJ-FGAqtg18BHfH99BILJDoWKBxwdL_OQg?e=E7jIlT)
 
 ### 2.5  ResNet-50-RGB IN
 
-Now the `epoch 60 model of ResNet-50-RGB IN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EjRVIDqrT5pJhtsFm2Mf8HQBMYcuYo1FjNz6Yz2IhmFRJw?e=Hqf8fa)
+Now the `epoch 60 model of ResNet-50-RGB IN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EkLRIq3lay1ImMd58PcFya4BDRZ4VgMXmYe92UNmK2UpYw?e=g4acZT)
 
 ### 2.6  ResNet-50-Gray BN
 
-Now the `epoch 60 model of ResNet-50-Gray BN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EgqoMAIIuydJo8dQpz_oZZQB7qeKj7kIq0qGIalXoR6Sqg?e=NBAVaK)
+Now the `epoch 60 model of ResNet-50-Gray BN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/Ei_r7TdTv2dAjCTi2h55r_YBjqMuQOW-uAWiJXwQ0IMfFQ?e=B24HQ0)
+
+### 2.7  ResNet-50-Gray IN
+
+Now the `epoch 120 model of ResNet-50-Gray BN` is available: [Link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_my_cityu_edu_hk/EtXtamdjGEZFrD3tFuHOX-YBi3-Is3yXRF2NZt5EDZkvZA?e=0mRyvj)
 
 Other models pending...
 
